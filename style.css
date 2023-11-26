@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'def';
+    src: url('fonts/Magical Childhood.ttf') format('woff2');
+    /* Add additional formats for cross-browser compatibility */
+}
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,4 +16,5 @@ body {
 
 h1, h2, img {
     margin: 10px; /* Optional: Add some margin to the elements */
+    font-family: def;
 }
