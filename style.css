@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'def';
     src: url('fonts/Magical Childhood.ttf');
-    /* Add additional formats for cross-browser compatibility */
+    
 }
 
 
@@ -12,9 +12,16 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-color: rgb(177, 110, 72);
 }
 
-h1, h2, img {
-    margin: 10px; /* Optional: Add some margin to the elements */
+h1, h2{
+    margin: 10px;
     font-family: def;
+    color: white;
+
+}
+img {
+    margin: 10px;
+
 }
