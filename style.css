@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'def';
-    src: url('fonts/Magical Childhood.ttf') format('woff2');
+    src: url('fonts/Magical Childhood.ttf');
     /* Add additional formats for cross-browser compatibility */
 }
 
